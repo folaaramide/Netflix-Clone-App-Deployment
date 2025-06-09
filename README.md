@@ -2,10 +2,10 @@
 # 🚀 Deploy Netflix Clone on Kubernetes Using CI/CD Jenkins with Integrated Security (SonarQube & Trivy)
 
 ## 📖 Project Overview
-This project demonstrates how to deploy a Netflix Clone application on Kubernetes (AWS EKS) using Jenkins CI/CD, while integrating static code analysis (SonarQube) and container vulnerability scanning (Trivy) for enhanced security.
+This project demonstrates how to deploy a Netflix Clone application on Kubernetes (AWS EC2-1 master and 1 worker) using Jenkins CI/CD, while integrating static code analysis (SonarQube) and container vulnerability scanning (Trivy) for enhanced security.
 
 ## 🛠️ Technologies Used
-- AWS (EC2, EKS)
+- AWS (EC2)
 - Jenkins
 - Docker & DockerHub
 - SonarQube
@@ -18,14 +18,14 @@ This project demonstrates how to deploy a Netflix Clone application on Kubernete
 2. **Static Code Analysis** using SonarQube
 3. **Docker Build & Trivy Scan**
 4. **Docker Push** to DockerHub
-5. **Kubernetes Deployment** to EKS
+5. **Kubernetes Deployment**
 
 ## ⚙️ Prerequisites
-- AWS account with EKS configured
+- AWS account with Kubernetes configured on one master and one worker node.
 - Jenkins installed and configured with required plugins
 - DockerHub account
 - SonarQube server running
-- `kubectl` configured for your EKS cluster
+- `kubectl` configured for your kubernetes cluster
 
 ## 📂 Project Structure
 netflix-clone-k8s-cicd/
@@ -46,6 +46,6 @@ Configure Jenkins credentials for DockerHub and SonarQube.
 
 Trigger Jenkins Pipeline.
 
-Access Netflix Clone via AWS LoadBalancer URL:
+Access Netflix Clone via AWS EC2 public DNS and NordPort.
 
 kubectl get svc
