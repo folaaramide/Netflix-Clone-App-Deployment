@@ -39,13 +39,10 @@ netflix-clone-k8s-cicd/
 └── README.md
 
 ## 🚀 Deployment Instructions
-1. Clone this repository:
+1.Clone this repository:
    git clone https://github.com/k21academyuk/Deploy-Netflix-Clone-on-Kubernetes
-   cd Deploy-Netflix-Clone-on-Kubernetes
-Configure Jenkins credentials for DockerHub and SonarQube.
-
-Trigger Jenkins Pipeline.
-
-Access Netflix Clone via AWS EC2 public DNS and NordPort.
-
-kubectl get svc
+2.cd Deploy-Netflix-Clone-on-Kubernetes
+3.Configure Jenkins credentials for DockerHub and SonarQube.
+4.Trigger Jenkins Pipeline.
+5.Access Netflix Clone via AWS EC2 public DNS and NordPort.
+6.kubectl get svc
