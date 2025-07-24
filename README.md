@@ -27,17 +27,6 @@ This project demonstrates how to deploy a Netflix Clone application on Kubernete
 - SonarQube server running
 - `kubectl` configured for your kubernetes cluster
 
-## 📂 Project Structure
-netflix-clone-k8s-cicd/
-├── api/ # Netflix Clone API
-├── Jenkinsfile # CI/CD pipeline definition
-├── k8s/ # Kubernetes manifests
-│ ├── deployment.yaml
-│ ├── service.yaml
-│ └── configmap.yaml
-├── sonar-project.properties
-└── README.md
-
 ## 🚀 Deployment Instructions
 1.Clone this repository:
    git clone https://github.com/k21academyuk/Deploy-Netflix-Clone-on-Kubernetes
