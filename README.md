@@ -1,10 +1,9 @@
-# Netflix-Clone-App-Deployment
-# 🚀 Deploy Netflix Clone on Kubernetes Using CI/CD Jenkins with Integrated Security (SonarQube & Trivy)
+Deploy Netflix Clone on Kubernetes Using CI/CD Jenkins with Integrated Security (SonarQube & Trivy)
 
-## 📖 Project Overview
+## Project Overview
 This project demonstrates how to deploy a Netflix Clone application on Kubernetes (AWS EC2-1 master and 1 worker) using Jenkins CI/CD, while integrating static code analysis (SonarQube) and container vulnerability scanning (Trivy) for enhanced security.
 
-## 🛠️ Technologies Used
+## Technologies Used
 - AWS (EC2)
 - Jenkins
 - Docker & DockerHub
