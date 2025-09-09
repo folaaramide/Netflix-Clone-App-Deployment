@@ -12,21 +12,21 @@ This project demonstrates how to deploy a Netflix Clone application on Kubernete
 - Kubernetes (kubectl)
 - Netflix Clone App (Node.js, React)
 
-## 📌 Pipeline Workflow
+## Pipeline Workflow
 1. **Clone Repository**
 2. **Static Code Analysis** using SonarQube
 3. **Docker Build & Trivy Scan**
 4. **Docker Push** to DockerHub
 5. **Kubernetes Deployment**
 
-## ⚙️ Prerequisites
+## Prerequisites
 - AWS account with Kubernetes configured on one master and one worker node.
 - Jenkins installed and configured with required plugins
 - DockerHub account
 - SonarQube server running
 - `kubectl` configured for your kubernetes cluster
 
-## 🚀 Deployment Instructions
+## Deployment Instructions
 1.Clone this repository:
 git clone https://github.com/k21academyuk/Deploy-Netflix-Clone-on-Kubernetes
 
